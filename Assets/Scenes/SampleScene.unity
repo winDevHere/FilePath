@@ -663,8 +663,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1603529797}
-  - component: {fileID: 1603529796}
   - component: {fileID: 1603529798}
+  - component: {fileID: 1603529796}
   m_Layer: 0
   m_Name: TextureAssigner
   m_TagString: Untagged
@@ -679,14 +679,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603529795}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e5ee2d681d6f2741854d765e00a19a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AssignTextureFromFolder
-  mayRawImage: {fileID: 1532984324}
-  myTexture: {fileID: 0}
   folder: C:\AdminFiles\02_Sample
+  addedFolder: C:\AdminFiles\02_Sample\AddedFolder
 --- !u!4 &1603529797
 Transform:
   m_ObjectHideFlags: 0
@@ -709,7 +708,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603529795}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9e0b5cd86983a4b4d9594e5a7183fb61, type: 3}
   m_Name: 
