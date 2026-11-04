@@ -3,13 +3,12 @@ using System.IO;
 
 public class CheckTextFiles : MonoBehaviour
 {
-    public string folder;
+    [SerializeField] string folder;
 
     void Start()
     {
-        //string[] files = Directory.GetFiles(folder, "*.txt");
-        string[] files = Directory.GetFiles(folder);
-
+        //string[] files = Directory.GetFiles(folder);
+        string[] files = Directory.GetFiles(folder, "*.txt");
 
         if (files.Length > 0)
         {
@@ -19,5 +18,4 @@ public class CheckTextFiles : MonoBehaviour
         else
             Debug.Log("Text files does not exist");
     }
-
 }
